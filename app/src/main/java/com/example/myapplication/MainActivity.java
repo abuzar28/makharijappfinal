@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         buttonrepo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openWebPage("https://github.com/abuzar28/makharijapp");
+                openWebPage("https://github.com/abuzar28/makharijappfinal");
 
             }
         });
