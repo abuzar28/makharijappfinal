@@ -14,10 +14,10 @@
         android:text="Halqiyah"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.168"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.101" />
+        app:layout_constraintVertical_bias="0.553" />
 
     <Button
         android:id="@+id/btnLahatiyah"
@@ -33,9 +33,11 @@
         android:id="@+id/btnShajariyahHaafiyah"
         android:layout_width="150dp"
         android:layout_height="45dp"
+        android:layout_marginTop="8dp"
         android:backgroundTint="#7C7B38"
         android:text="Haafiyah"
         app:layout_constraintEnd_toEndOf="@+id/btnNiteeyah"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/btnNiteeyah"
         app:layout_constraintTop_toBottomOf="@+id/btnNiteeyah" />
 
@@ -66,33 +68,45 @@
         android:layout_height="45dp"
         android:backgroundTint="#7C7B38"
         android:text="Lisaveyah"
-        app:layout_constraintEnd_toEndOf="@+id/btnTarfiyahtest"
-        app:layout_constraintStart_toStartOf="@+id/btnTarfiyahtest"
-        app:layout_constraintTop_toBottomOf="@+id/btnTarfiyahtest" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.785"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.554" />
 
     <Button
         android:id="@+id/btnGhunna"
         android:layout_width="150dp"
         android:layout_height="45dp"
+        android:layout_marginTop="45dp"
         android:backgroundTint="#7C7B38"
         android:text="Ghunna"
-        app:layout_constraintEnd_toEndOf="@+id/btnTarfiyahtest"
+        app:layout_constraintEnd_toEndOf="@+id/btnLisaveyah"
         app:layout_constraintStart_toStartOf="@+id/btnLisaveyah"
-        app:layout_constraintTop_toBottomOf="@+id/btnLisaveyah" />
+        app:layout_constraintTop_toTopOf="@+id/btnLisaveyah" />
 
     <Button
         android:id="@+id/btnback"
         android:layout_width="150dp"
         android:layout_height="45dp"
-        android:layout_marginBottom="60dp"
         android:backgroundTint="#7C7B38"
         android:text="Back"
+        app:layout_constraintEnd_toEndOf="@+id/btnTarfiyahtest"
+        app:layout_constraintStart_toStartOf="@+id/btnTarfiyahtest"
+        app:layout_constraintTop_toBottomOf="@+id/btnTarfiyahtest" />
+
+    <ImageView
+        android:id="@+id/imgpractice"
+        android:layout_width="397dp"
+        android:layout_height="280dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.435"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnShajariyahHaafiyah"
-        app:layout_constraintVertical_bias="0.194" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084"
+        app:srcCompat="@drawable/makharijimage" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

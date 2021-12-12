@@ -10,24 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".Gunnah"
-            android:exported="false" />
-        <activity
-            android:name=".Leh"
-            android:exported="false" />
-        <activity
-            android:name=".Hafiyah"
-            android:exported="false" />
-        <activity
-            android:name=".Nehtiya"
-            android:exported="false" />
-        <activity
-            android:name=".Lahatiya"
-            android:exported="false" />
-        <activity
-            android:name=".Halqiyah"
-            android:exported="false" />
-        <activity
             android:name=".Quiz"
             android:exported="false" />
         <activity

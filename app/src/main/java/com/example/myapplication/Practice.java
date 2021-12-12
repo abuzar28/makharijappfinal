@@ -6,16 +6,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class Practice extends AppCompatActivity {
 
     Button btnback, btnHalqiyah, btnlahatiyah, btntarfiyah, btnshahjariyah, btnlisaveyah, btnniteyah, btnghunna;
-
+    ImageView img;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_practice);
-
+        img=findViewById(R.id.imgpractice);
         btnback = (Button) findViewById(R.id.btnback);
         btnHalqiyah = (Button) findViewById(R.id.btnHalqiyah);
         btnlahatiyah = (Button) findViewById(R.id.btnLahatiyah);
@@ -38,24 +39,19 @@ public class Practice extends AppCompatActivity {
         btnHalqiyah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Practice.this
-                        , Halqiyah.class);
-                startActivity(intent);
+                img.setImageResource(R.drawable.halqiyahiiamge);
             }
         });
         btnlahatiyah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Practice.this
-                        , Lahatiya.class);
-                startActivity(intent);
+              img.setImageResource(R.drawable.lahatiyahimage);
             }
         });
        btntarfiyah.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
-               Intent intent=new Intent(Practice.this,Tarifiya.class);
-               startActivity(intent);
+               img.setImageResource();
            }
        });
         btnniteyah.setOnClickListener(new View.OnClickListener() {
