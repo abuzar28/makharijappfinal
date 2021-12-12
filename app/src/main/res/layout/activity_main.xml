@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#5E758283"
     android:backgroundTint="#00000000"
-    tools:context=".ProfileActivity">
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
@@ -90,14 +90,15 @@
         android:id="@+id/imageView6"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_marginStart="1dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="43dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toTopOf="@+id/buttonrepo"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/commits" />
 
     <Button
         android:id="@+id/btnMainActivity"
