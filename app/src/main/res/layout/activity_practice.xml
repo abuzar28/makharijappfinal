@@ -14,7 +14,7 @@
         android:text="Halqiyah"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.168"
+        app:layout_constraintHorizontal_bias="0.114"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.553" />
@@ -33,7 +33,6 @@
         android:id="@+id/btnShajariyahHaafiyah"
         android:layout_width="150dp"
         android:layout_height="45dp"
-        android:layout_marginTop="8dp"
         android:backgroundTint="#7C7B38"
         android:text="Haafiyah"
         app:layout_constraintEnd_toEndOf="@+id/btnNiteeyah"
@@ -70,10 +69,10 @@
         android:text="Lisaveyah"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.785"
+        app:layout_constraintHorizontal_bias="0.869"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.554" />
+        app:layout_constraintVertical_bias="0.552" />
 
     <Button
         android:id="@+id/btnGhunna"

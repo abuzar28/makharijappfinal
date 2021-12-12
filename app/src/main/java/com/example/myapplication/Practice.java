@@ -51,39 +51,32 @@ public class Practice extends AppCompatActivity {
        btntarfiyah.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
-               img.setImageResource();
+               img.setImageResource(R.drawable.tarfiyahimage);
            }
        });
         btnniteyah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Practice.this
-                        , Nehtiya.class);
-                startActivity(intent);
-            }
+
+                img.setImageResource(R.drawable.niteyahimage);
+                            }
         });
         btnshahjariyah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Practice.this
-                        , Hafiyah.class);
-                startActivity(intent);
+                img.setImageResource(R.drawable.shajariyahhaafiyahimage);
             }
         });
         btnlisaveyah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Practice.this
-                        , Leh.class);
-                startActivity(intent);
+                img.setImageResource(R.drawable.lisaveyahimage);
             }
         });
         btnghunna.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Practice.this
-                        , Gunnah.class);
-                startActivity(intent);
+                img.setImageResource(R.drawable.ghunnaimage);
             }
         });
     }
