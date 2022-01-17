@@ -7,7 +7,9 @@
     android:background="#5E758283"
     android:backgroundTint="#00000000"
     tools:context=".MainActivity">
-
+<include layout="@layout/toolbar"
+    android:id="@+id/toolbar"
+    />
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -27,6 +29,7 @@
         android:id="@+id/buttonrepo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
         android:layout_marginBottom="50dp"
         android:backgroundTint="#7C7B38"
         android:text="Repository Link"
@@ -100,18 +103,18 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5"
         app:srcCompat="@drawable/commits" />
 
-    <Button
-        android:id="@+id/btnMainActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="48dp"
-        android:backgroundTint="#7C7B38"
-        android:text="Makharijal Huruf"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/buttonrepo"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+<!--    <Button-->
+<!--        android:id="@+id/btnMainActivity"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:layout_marginBottom="48dp"-->
+<!--        android:backgroundTint="#7C7B38"-->
+<!--        android:text="Makharijal Huruf"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/buttonrepo"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageView6" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
